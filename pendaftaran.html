@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"> 
+            <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"> 
+            <link rel="stylesheet" type="text/css" href="theme.css">
+        <title>HIMASIF</title>
+        <style>
+            body, html {
+                height: 100%;
+                margin: 0;
+            }
+            *{margin:0; padding:0;}
+            body{ 
+                font-size:15px;
+                }
+            .heading1{
+                color: white;
+                position: absolute;
+                top: 20%;
+                width: 70%;
+                text-decoration-line: underline;
+                text-align: center;
+                margin-left: 190px;
+                font-size: 2rem;
+                text-shadow: 5px 5px 10px #000000;
+                margin-top: -20px;
+                font-family: 'Mali', cursive;
+                }
+                .heading2{
+                color: white;
+                position: absolute;
+                top: 30%;
+                width: 70%;
+                text-align: left;
+                margin-left: 400px;
+                font-size: 1rem;
+                text-shadow: 5px 5px 10px #000000;
+                font-family: 'Mali', cursive;
+                }
+                .heading3{
+                color: white;
+                top: 58%;
+                width: 50%;
+                text-align: center;
+                margin-left: 350px;
+                font-size: 1rem;
+                text-shadow: 5px 5px 10px #000000;
+                font-family: 'Mali', cursive;
+                margin-top: 175px;
+                position: absolute;
+                }
+            .tulisan{
+                color: white;
+                position: absolute;
+                margin-top: 609px;
+                margin-left: 550px;
+            }
+            .bg {
+                background-image: url("https://i.imgur.com/qMlvLhK.jpg");
+                height: 100%;
+                width: 100%;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            body {
+                margin : 0;
+                padding : 0;
+                background:gray;
+            }
+            .nav {
+                width: 100%;
+                background: rgba(0, 0, 0, 0.5);
+                overflow: auto;
+            }
+            ul {
+                padding:0 ;
+                margin: 0 0 0 150px;
+                list-style:none;
+            }
+            li{
+                float:left;
+            }
+            .gambar1 {
+                position: absolute;
+                margin-top: 550px;
+                margin-left: 600px;
+            }
+            .gambar2 {
+                position: absolute;
+                margin-top: 550px;
+                margin-left: 650px;
+            }
+            .gambar3 {
+                position: absolute;
+                margin-top: 550px;
+                margin-left: 700px;
+            }
+            .logo img{
+                position:absolute;
+                margin-top: 7px;
+                margin-left: 50px;
+            }
+            nav a{
+                width:180px;
+                display:block;
+                padding: 5px 5px 15px 5px;
+                text-decoration: none;
+                font-family: 'Oswald', sans-serif;
+                color:#f2f2f2;
+                text-align:center;
+                margin-left: 22px;
+                font-size: 1rem;
+            }
+            nav a:hover {
+                background:purple;
+                transition:0.5s;
+                text-transform:none;
+            }
+            nav b{
+                width:50px;
+                display:block;
+                padding: 20px 15px;
+                text-decoration: none;
+                font-family: Arial;
+                color:#f2f2f2;
+                text-align:center;
+            }
+            nav b:hover {
+                background:purple;
+                transition:0.5s;
+                text-transform:none;
+            }
+            #content {
+            position: relative;
+        }
+        .border {
+            position: absolute;
+            width: 90px;
+            padding: 2px 2px 2px;
+            border: 5px solid gray;
+            color : black;
+            margin-top: 400px;
+            margin-left: 250px;
+            text-shadow: 5px 5px 10px #000000;
+            font-family: 'Mali', cursive;
+            
+        }
+        .button {
+            position: absolute;
+            margin-top: 590px;
+            margin-left: 646px;
+        }
+        #content img {
+            position: absolute;
+            margin-right: 50px;
+            top: 0px;
+            right: 0px;
+}       
+.form1{
+    text-align: left;
+    margin-top: 125px;
+    margin-left: 375px;
+    display:block;
+    padding:30px;
+    position: absolute;
+}
+.form1 input{
+    width:250px;
+    padding: 8px 12px;
+    border:2px solid #ddd;
+}
+.form1 input:focus{
+    border:5px solid #e8554e;
+    outline:none
+}
+.form2{
+    text-align: left;
+    margin-top: 125px;
+    margin-left: 658px;
+    display:block;
+    padding:30px;
+    position: absolute;
+}
+.form2 input{
+    width:250px;
+    padding: 8px 12px;
+    border:2px solid #ddd;
+}
+.form2 input:focus{
+    border:5px solid #e8554e;
+    outline:none
+}
+
+.form3{
+    text-align: left;
+    margin-top: 165px;
+    margin-left: 375px;
+    display:block;
+    padding:30px;
+    position: absolute;
+}
+.form3 input{
+    width:533px;
+    padding: 8px 12px;
+    border:2px solid #ddd;
+}
+.form3 input:focus{
+    border:5px solid #e8554e;
+    outline:none
+}
+.form4{
+    text-align: left;
+    margin-top: 205px;
+    margin-left: 375px;
+    display:block;
+    padding:30px;
+    position: absolute;
+}
+.form4 input{
+    width:250px;
+    padding: 8px 12px;
+    border:2px solid #ddd;
+}
+.form4 input:focus{
+    border:5px solid #e8554e;
+    outline:none
+}
+
+.form5{
+    text-align: left;
+    margin-top: 214px;
+    margin-left: 658px;
+    display:block;
+    padding:30px;
+    position: absolute;
+}
+.form5 input{
+    width:250px;
+    padding: 8px 12px;
+    border:2px solid #ddd;
+}
+.form5 input:focus{
+    border:5px solid #e8554e;
+    outline:none
+}
+
+.form6{
+    text-align: left;
+    margin-top: 245px;
+    margin-left: 375px;
+    display:block;
+    padding:30px;
+    position: absolute;
+}
+.form6 input{
+    width:250px;
+    padding: 8px 12px;
+    border:2px solid #ddd;
+}
+.form6 input:focus{
+    border:5px solid #e8554e;
+    outline:none
+}
+
+.form7{
+    text-align: left;
+    margin-top: 253px;
+    margin-left: 658px;
+    display:block;
+    padding:30px;
+    position: absolute;
+}
+.form7 input{
+    width:250px;
+    padding: 8px 12px;
+    border:2px solid #ddd;
+}
+.form7 input:focus{
+    border:5px solid #e8554e;
+    outline:none
+}
+.form8{
+    text-align: left;
+    margin-top: 253px;
+    margin-left: 745px;
+    display:block;
+    padding:30px;
+    position: absolute;
+}
+.form8 input{
+    width:250px;
+    padding: 8px 12px;
+    border:2px solid #ddd;
+}
+.form8 input:focus{
+    border:5px solid #e8554e;
+    outline:none
+}
+.form9{
+    text-align: left;
+    margin-top: 253px;
+    margin-left: 819px;
+    display:block;
+    padding:30px;
+    position: absolute;
+}
+.form9 input{
+    width:250px;
+    padding: 8px 12px;
+    border:2px solid #ddd;
+}
+.form9 input:focus{
+    border:5px solid #e8554e;
+    outline:none
+}
+.form10{
+    text-align: left;
+    margin-top: 300px;
+    margin-left: 698px;
+    display:block;
+    padding:5px;
+    position: absolute;
+}
+.form10 input{
+    width:250px;
+    padding: 8px 12px;
+    border:2px solid #ddd;
+}
+.form10 input:focus{
+    border:5px solid #e8554e;
+    outline:none
+}
+.form11{
+    text-align: left;
+    margin-top: 310px;
+    margin-left: 375px;
+    display:block;
+    padding:30px;
+    position: absolute;
+}
+.form11 input{
+    width:533px;
+    padding: 8px 12px;
+    border:2px solid #ddd;
+}
+.form11 input:focus{
+    border:5px solid #e8554e;
+    outline:none
+}
+.form12{
+    text-align: left;
+    margin-top: 350px;
+    margin-left: 375px;
+    display:block;
+    padding:30px;
+    position: absolute;
+}
+.form12 input{
+    width:533px;
+    padding: 8px 12px;
+    border:2px solid #ddd;
+}
+.form12 input:focus{
+    border:5px solid #e8554e;
+    outline:none
+}
+.form13{
+    text-align: left;
+    margin-top: 390px;
+    margin-left: 375px;
+    display:block;
+    padding:30px;
+    position: absolute;
+}
+.form13 input{
+    width:533px;
+    padding: 8px 12px;
+    border:2px solid #ddd;
+}
+.form13 input:focus{
+    border:5px solid #e8554e;
+    outline:none
+}
+.form14{
+    text-align: left;
+    margin-top: 430px;
+    margin-left: 375px;
+    display:block;
+    padding:30px;
+    position: absolute;
+}
+.form14 input{
+    width:533px;
+    padding: 8px 12px;
+    border:2px solid #ddd;
+}
+.form14 input:focus{
+    border:5px solid #e8554e;
+    outline:none
+}
+.form15{
+    text-align: left;
+    margin-top: 470px;
+    margin-left: 375px;
+    display:block;
+    padding:30px;
+    position: absolute;
+}
+.form15 input{
+    width:533px;
+    padding: 8px 12px;
+    border:2px solid #ddd;
+}
+.form15 input:focus{
+    border:5px solid #e8554e;
+    outline:none
+}
+        </style>
+    </head>
+    <body>
+            <h2 class = "heading1">PENDAFTARAN</h2>
+            
+            <div class = "form1">
+            <input type="text" name = "nama" placeholder="Nama Depan">
+            </div>
+            <div class = "form2">
+            <input type="text" name = "nama" placeholder="Nama Belakang">
+            </div>
+            <div class = "form3">
+            <input type="text" name = "nama" placeholder="Alamat Asal">
+            </div>
+            <div class = "form4">
+                <input type="text" name = "nama" placeholder="Alamat Di Jember">
+                </div>
+                <div class = "form5">
+                    <select type="text" name = "nama" placeholder="Kecamatan Di Jember">
+                            <option>-Pilih Kecamatan di Jember-</option>
+                            <option> Wonosari </option>
+                            <option> Umbulsari </option>
+                            <option> Kebunsari </option>
+                            <option> Sumbersari </option>
+                            <option> Kaliwates </option>
+                            <option> Arjasa </option>
+                            <option> Jelbuk </option>
+                            <option> Ambulu </option>
+                            <option> Asembagus </option>
+                            <option> Jangkar </option>
+                    </select>
+                    </div>
+                    <div class = "form6">
+                        <input type="text" name = "nama" placeholder="Tempat Lahir">
+                        </div>
+                        <div class = "form7">
+                                <select type="text" name = "nama" placeholder="">
+                                        <option>-Tanggal-</option>
+<option>01</option>
+<option>02</option>
+<option>03</option>
+<option>04</option>
+<option>05</option>
+<option>06</option>
+<option>07</option>
+<option>08</option>
+<option>09</option>
+<option>10</option>
+<option>11</option>
+<option>12</option>
+<option>13</option>
+<option>14</option>
+<option>15</option>
+<option>16</option>
+<option>17</option>
+<option>18</option>
+<option>19</option>
+<option>20</option>
+<option>21</option>
+<option>22</option>
+<option>23</option>
+<option>24</option>
+<option>25</option>
+<option>26</option>
+<option>27</option>
+<option>28</option>
+<option>29</option>
+<option>30</option>
+<option>31</option>
+                                </select>
+                            </div>
+                            <div class = "form8">
+                                <select>
+                                    <option>-Bulan-</option>
+                                    <option>01</option>
+                                    <option>02</option>
+                                    <option>03</option>
+                                    <option>04</option>
+                                    <option>05</option>
+                                    <option>06</option>
+                                    <option>07</option>
+                                    <option>08</option>
+                                    <option>09</option>
+                                    <option>10</option>
+                                    <option>11</option>
+                                    <option>12</option>
+                                </select>
+                                </div>
+                                <div class = "form9">
+                                        <select>
+                        <option>-Tahun-</option>
+                        <option>1990</option>
+                        <option>1991</option>
+                        <option>1992</option>
+                        <option>1993</option>
+                        <option>1994</option>
+                        <option>1995</option>
+                        <option>1996</option>
+                        <option>1997</option>
+                        <option>1998</option>
+                        <option>1999</option>
+                        <option>2000</option>
+                                            </select>
+                                    </div>
+                                    <div class = "form10">
+                                            <select>
+                                                    <option>-----------Jenis Kelamin------------</option>
+                                                    <option>Laki - Laki</option>
+                                                    <option>Perempuan</option>
+                                            </select>
+                                        </div><div class = "form11">
+                                                <input type="text" name = "nama" placeholder="Nomor Handphone">
+                                                </div><div class = "form12">
+                                                        <input type="text" name = "nama" placeholder="Email">
+                                                        </div><div class = "form13">
+                                                                <input type="text" name = "nama" placeholder="Riwayat Organisasi">
+                                                                </div><div class = "form14">
+                                                                        <input type="text" name = "nama" placeholder="Penghargaan / Sertifikat">
+                                                                        </div><div class = "form15">
+                                                                                <input type="text" name = "nama" placeholder="Mengapa kami harus memilih anda?">
+                                                                                </div>
+            
+                
+
+            <h4 class = "heading3">Dengan meng-klik tombol DAFTAR berarti anda telah setuju
+            <br>
+        dan mau menjalankan segala persyaratan dan peraturan yang panitia buat.</h4>
+            <div class="button">
+                   <a href="pendaftaran2.html"><input type="submit" name="submit" value="DAFTAR"/></a>
+            </div>
+            
+            <div class="bg">
+            <div id = "logo">
+            <div class = "logo" ><img src = "https://upload.wikimedia.org/wikipedia/id/thumb/9/99/Universitas_Jember.png/587px-Universitas_Jember.png" height="80"></div>
+            <div id="content">
+            <img src="https://lh3.googleusercontent.com/_TsU_qAQmvVQ/TbXzhsoThnI/AAAAAAAAAKQ/yk0G9gQCx6U/Himpunan%20Mahasiswa%20Sistem%20Informasi%20%28HIMASIF%29.png" height="85" class="ribbon"/></div>
+            <div class = "tulisan">© 2018 Himasif. All Rights Reserverd.</div>
+            </div>
+    
+    <nav>
+        <div class = "nav">
+        <ul>
+                <li><a href = "persyaratan.html"> PERSYARATAN</a></li>
+                <li><a href = "pendaftaran.html"> PENDAFTARAN</a></li>
+                <li><a href = "ho.html"> HIMASIF
+                    <br>
+                    Himpunan Mahasiswa Sistem Informasi Universitas Jember
+     
+                </a></li>
+                <li><a href = "pengumuman.html"> PENGUMUMAN</a></li>
+                <li><a href = "contact.html"> CONTACT</a></li>
+        </ul>
+        </div>
+    </nav>
+    </body>
+</html>
